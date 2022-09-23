@@ -9,7 +9,7 @@ namespace RevitAddin.UnitTest
 {
     public class CountItDocumentTest : IDisposable
     {
-        const string fileName = "CountIt.rvt";
+        const string fileName = "CountIt2.rvt";
 
         private readonly Document document;
 
