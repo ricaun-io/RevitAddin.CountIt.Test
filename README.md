@@ -7,6 +7,12 @@
 [![NUnit](https://ricaun-azure-dotnet-api.azurewebsites.net/workflows/RevitAddin.CountIt.Test/badge.svg)](https://ricaun-azure-dotnet-api.azurewebsites.net/workflows/RevitAddin.CountIt.Test)
 [![Build](../../actions/workflows/Build.yml/badge.svg)](../../actions)
 
+```
+ForgeNUnitUrl: ${{ secrets.FORGE_NUNIT_URL }}
+ForgeNUnitApi: ${{ secrets.FORGE_NUNIT_API }}
+ForgeNUnitApiKey: ${{ secrets.FORGE_NUNIT_APIKEY }}
+```
+
 ## Release
 
 * [Latest release](../../releases/latest)
