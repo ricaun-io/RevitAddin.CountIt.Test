@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29613.14
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BA17E7C-C44B-4B56-8901-376ADA4221EA}") = "RevitAddin.CountIt.Test", "RevitAddin.CountIt.Test\RevitAddin.CountIt.Test.csproj", "{DB9EA79F-E581-40E6-B805-369207717489}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RevitAddin.CountIt.Test", "RevitAddin.CountIt.Test\RevitAddin.CountIt.Test.csproj", "{DB9EA79F-E581-40E6-B805-369207717489}"
 EndProject
-Project("{8BA17E7C-C44B-4B56-8901-376ADA4221EA}") = "Build", "Build\Build.csproj", "{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build", "Build\Build.csproj", "{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{6D7D2611-1525-4C90-942E-685FCF9276B0}"
 	ProjectSection(SolutionItems) = preProject
@@ -16,18 +16,51 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{6D
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		2020|Any CPU = 2020|Any CPU
+		2021|Any CPU = 2021|Any CPU
+		2022|Any CPU = 2022|Any CPU
+		2023|Any CPU = 2023|Any CPU
+		Debug 2020|Any CPU = Debug 2020|Any CPU
+		Debug 2021|Any CPU = Debug 2021|Any CPU
+		Debug 2022|Any CPU = Debug 2022|Any CPU
+		Debug 2023|Any CPU = Debug 2023|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DB9EA79F-E581-40E6-B805-369207717489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB9EA79F-E581-40E6-B805-369207717489}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB9EA79F-E581-40E6-B805-369207717489}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB9EA79F-E581-40E6-B805-369207717489}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.2020|Any CPU.ActiveCfg = 2020|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.2020|Any CPU.Build.0 = 2020|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.2021|Any CPU.ActiveCfg = 2021|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.2021|Any CPU.Build.0 = 2021|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.2022|Any CPU.ActiveCfg = 2022|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.2022|Any CPU.Build.0 = 2022|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.2023|Any CPU.ActiveCfg = 2023|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.2023|Any CPU.Build.0 = 2023|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.Debug 2020|Any CPU.ActiveCfg = Debug 2020|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.Debug 2020|Any CPU.Build.0 = Debug 2020|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.Debug 2021|Any CPU.ActiveCfg = Debug 2021|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.Debug 2021|Any CPU.Build.0 = Debug 2021|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.Debug 2022|Any CPU.ActiveCfg = Debug 2022|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.Debug 2022|Any CPU.Build.0 = Debug 2022|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.Debug 2023|Any CPU.ActiveCfg = Debug 2023|Any CPU
+		{DB9EA79F-E581-40E6-B805-369207717489}.Debug 2023|Any CPU.Build.0 = Debug 2023|Any CPU
+		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.2020|Any CPU.ActiveCfg = Release|Any CPU
+		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.2021|Any CPU.ActiveCfg = Release|Any CPU
+		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.2021|Any CPU.Build.0 = Release|Any CPU
+		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.2022|Any CPU.ActiveCfg = Release|Any CPU
+		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.2022|Any CPU.Build.0 = Release|Any CPU
+		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.2023|Any CPU.ActiveCfg = Release|Any CPU
+		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.2023|Any CPU.Build.0 = Release|Any CPU
+		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.Debug 2020|Any CPU.ActiveCfg = Debug|Any CPU
+		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.Debug 2021|Any CPU.ActiveCfg = Debug|Any CPU
+		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.Debug 2021|Any CPU.Build.0 = Debug|Any CPU
+		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.Debug 2022|Any CPU.ActiveCfg = Debug|Any CPU
+		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.Debug 2022|Any CPU.Build.0 = Debug|Any CPU
+		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.Debug 2023|Any CPU.ActiveCfg = Debug|Any CPU
+		{D692EC3C-6FD6-473C-BAD5-CF26D1A0B77F}.Debug 2023|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F35AC30-605E-4D50-BDCD-4F965B52CB50}
 	EndGlobalSection
 EndGlobal

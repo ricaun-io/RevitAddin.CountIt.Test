@@ -8,9 +8,7 @@
     <LangVersion>latest</LangVersion>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
-    <Configurations>
-      Debug; Release;
-    </Configurations>
+    <Configurations>Debug 2020;2020;Debug 2021;2021;Debug 2022;2022;Debug 2023;2023;</Configurations>
   </PropertyGroup>
 
   <!-- RevitVersion -->

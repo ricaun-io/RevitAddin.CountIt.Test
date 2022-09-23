@@ -7,6 +7,7 @@
     <NukeRootDirectory>.</NukeRootDirectory>
     <NukeScriptDirectory>.</NukeScriptDirectory>
     <NukeTelemetryVersion>1</NukeTelemetryVersion>
+    <Configurations>Debug;Release</Configurations>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,7 +16,7 @@
 
   <ItemGroup>
     <None Include="..\.github\workflows\*.yml" LinkBase="ci" />
-    <None Include=".github\**\*"/>
-    <None Include=".nuke\*"/>
+    <None Include=".github\**\*" />
+    <None Include=".nuke\*" />
   </ItemGroup>
 </Project>
