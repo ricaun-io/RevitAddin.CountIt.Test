@@ -2,6 +2,7 @@
 using Nuke.Common.IO;
 using ricaun.Nuke.Components;
 using ricaun.Nuke.Extensions;
+using System;
 using System.IO;
 using System.Net.Http;
 
@@ -24,6 +25,7 @@ namespace ricaun.Nuke.Components
                         Serilog.Log.Information($"Upload: {fileName}");
                         using (HttpClient client = new HttpClient())
                         {
+                            client.Timeout = TimeSpan.FromSeconds(600);
                             client.DefaultRequestHeaders.Add(ForgeNUnitApi, ForgeNUnitApiKey);
                             using (FileStream fs = new FileStream(file, FileMode.Open))
                             {
